@@ -1,0 +1,12 @@
+<nav class="main-nav">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <li class="main-nav-item {{if $currentPage.IsMenuCurrent "main" .}}active{{ end }}">
+        <a href="{{ .URL }}">
+            {{ .Pre }}
+            <span>{{ upper .Name }}</span>
+        </a>
+    </li>
+    {{ end }}
+    <li class="social-media-icon"><a href="https://github.com/jpear1"><iframe src="github.svg"></iframe></a></li>
+</nav>

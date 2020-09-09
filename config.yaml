@@ -1,0 +1,15 @@
+baseURL: "https://jackrpearson.com"
+languageCode: "en-us"
+title: "Jack Pearson"
+menu:
+  main:
+  - name: home
+    url: /
+    weight: -120
+  - name: projects
+    url: /projects/
+    weight: -110
+  - name: about me
+    url: /about/
+    weight: -100
+

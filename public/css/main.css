@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Avenir Book";
+  src: url("/fonts/avenir-book.woff") format("woff"),
+       url("/fonts/avenir-book.woff2") format("woff2");
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Avenir Book"
+}
+
+main {
+  margin: 10px 100px 0px 100px;
+  padding: 0px;
+}
+
+nav {
+  background-color: black;
+  padding: 0px 0px;
+}
+
+nav li {
+  padding: 1em;
+  display: inline flow-root;
+  margin-right: 5em;
+}
+
+nav li:hover {
+  background-color: dimgrey;
+}
+
+nav li a {
+  font-size: 2em;
+  text-decoration: none;
+  letter-spacing: .1em;
+  color: white;
+}

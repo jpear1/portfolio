@@ -1,7 +1,7 @@
 {{ define "main" }}
-    <section class="home-top">
-        <li class="home-greeting">{{ .Params.greeting }}</li>
-        <li class="home-portrait"><img src="{{ .Params.portrait_url }}"></li>
+    <section class="home-header">
+        <span class="home-greeting">{{ .Params.greeting }}</span>
+        <img class="home-portrait" src="{{ .Params.portrait_url }}">
     </section>
     <section class="home-content">
         {{ .Content }}

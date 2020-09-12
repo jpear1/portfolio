@@ -1,12 +1,22 @@
 <nav class="main-nav">
-    {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
-    <li class="main-nav-item {{if $currentPage.IsMenuCurrent "main" .}}active{{ end }}">
-        <a href="{{ .URL }}">
+    <div class="nav-left-items">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}"
+           class="main-nav-item {{if $currentPage.IsMenuCurrent "main" .}}active{{ end }}">
             {{ .Pre }}
             <span>{{ upper .Name }}</span>
         </a>
-    </li>
-    {{ end }}
-    <li class="social-media-icon"><a href="https://github.com/jpear1"><iframe src="github.svg"></iframe></a></li>
+        {{ end }}
+    </div>
+    <div class="nav-right-items">
+        <a href="https://github.com/jpear1"
+           class="social-media-icon">
+            <img src="img/github.svg">
+        </a>
+        <a href="https://www.linkedin.com/in/jack-pearson-974680b0/"
+           class="social-media-icon">
+            <img src="img/linkedin.svg">
+        </a>
+    </div>
 </nav>

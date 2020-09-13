@@ -1,0 +1,51 @@
+.main-nav {
+  width: 100%;
+  background-color: black;
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: 2fr 1fr;
+}
+
+.nav-left-items,
+.nav-right-items {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.nav-right-items {
+  flex-direction: row-reverse;
+}
+
+.social-media-icon,
+.main-nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-icon:hover,
+.main-nav-item:hover {
+  background-color: dimgrey;
+}
+
+.main-nav-item {
+  padding: 1em;
+  margin-right: 3em;
+  text-decoration: none;
+}
+
+.main-nav-item span {
+  font-size: 2em;
+  letter-spacing: .1em;
+  color: white;
+}
+
+.main-nav-item.active span {
+  color: gold;
+}
+
+.social-media-icon img {
+  padding: .7em;
+  height: 3em;
+}
+

@@ -10,6 +10,6 @@ menu:
     url: /projects/
     weight: -110
   - name: about me
-    url: /about/
+    url: /about-me/
     weight: -100
 

@@ -1,6 +1,5 @@
 .main-nav {
   width: 100%;
-  background-color: black;
   display: grid;
   justify-items: stretch;
   grid-template-columns: 2fr 1fr;
@@ -17,20 +16,26 @@
   flex-direction: row-reverse;
 }
 
+.nav-right-items .buffer {
+  width: 3em;
+}
+
 .social-media-icon,
 .main-nav-item {
   display: flex;
   align-items: center;
+  border-bottom-style: solid;
+  border-color: white;
+  border-bottom-width: .1em;
 }
 
 .social-media-icon:hover,
-.main-nav-item:hover {
+.main-nav-item:not(.buffer):hover {
   background-color: dimgrey;
 }
 
 .main-nav-item {
   padding: 1em;
-  margin-right: 3em;
   text-decoration: none;
 }
 
@@ -38,6 +43,10 @@
   font-size: 2em;
   letter-spacing: .1em;
   color: white;
+}
+
+.main-nav-item.active {
+  border-color: gold;
 }
 
 .main-nav-item.active span {
@@ -49,3 +58,6 @@
   height: 3em;
 }
 
+.flex-fill {
+  flex-grow: 1;
+}

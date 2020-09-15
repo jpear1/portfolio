@@ -25,13 +25,13 @@
   display: flex;
   align-items: center;
   border-bottom-style: solid;
-  border-color: white;
+  border-color: black;
   border-bottom-width: .1em;
 }
 
 .social-media-icon:hover,
 .main-nav-item:not(.buffer):hover {
-  background-color: dimgrey;
+  background-color: #0001;
 }
 
 .main-nav-item {
@@ -42,7 +42,7 @@
 .main-nav-item span {
   font-size: 2em;
   letter-spacing: .1em;
-  color: white;
+  color: black;
 }
 
 .main-nav-item.active {
@@ -56,6 +56,7 @@
 .social-media-icon img {
   padding: .7em;
   height: 3em;
+  filter: invert(100%);
 }
 
 .flex-fill {

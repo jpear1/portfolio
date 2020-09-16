@@ -29,8 +29,8 @@
   border-bottom-width: .1em;
 }
 
-.social-media-icon:hover,
-.main-nav-item:not(.buffer):hover {
+.social-media-icon:not(.flex-fill):hover,
+.main-nav-item:not(.buffer):not(.flex-fill):hover {
   background-color: #0001;
 }
 

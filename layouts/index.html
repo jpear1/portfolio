@@ -1,7 +1,13 @@
 {{ define "main" }}
-    <section class="home-header">
-        <div class="home-greeting"><span>{{ .Params.greeting }}</span></div>
-        <img class="home-portrait" src="/img/portrait.png">
+    <section class="py-5 container-fluid ">
+    <div class="row align-items-center">
+        <div class="col-8 text-center">
+            <span id="greeting">Hello, I'm <span id="name">Jack</span>.</span>
+        </div>
+        <div class="col-4">
+            <img id="portrait" class="w-100" src="/img/portrait.png">
+        </div>
+    </div>
     </section>
     <section class="home-content">
         {{ .Content }}

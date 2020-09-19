@@ -1,26 +1,22 @@
+$font-size-base: 1.2rem;
+$font-family-base: "Avenir Book";
+
+$primary: #C3073F;
+$secondary: #950740;
+$tertiary: #6F2232;
+$quaternary: #4E4E50;
+
+$body-bg: #1A1A1D;
+$body-color: white;
+
+$navbar-dark-active-color: $primary;
+
+@import 'bootstrap-4.5.2/scss/bootstrap';
 @import 'navbar';
-@import 'home';
+@import 'index';
 
 @font-face {
   font-family: "Avenir Book";
   src: url("/fonts/avenir-book.woff") format("woff"),
        url("/fonts/avenir-book.woff2") format("woff2");
 }
-
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Avenir Book";
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  color: black;
-}
-
-main {
-  margin: 0px;
-  padding: 0px;
-  width: 80%;
-}
-

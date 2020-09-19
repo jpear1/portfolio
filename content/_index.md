@@ -1,7 +1,6 @@
 ---
 title: "Home"
 date: 2020-09-03T14:19:27-07:00
-greeting: Hi, I'm Jack.
 ---
 I'm a sophomore at UCSB studying Computing with a passion for contributing to
 open source projects.

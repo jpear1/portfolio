@@ -1,0 +1,12 @@
+#greeting {
+  font-size: 6rem;
+}
+
+#name {
+  color: $primary;
+}
+
+#portrait {
+  filter: drop-shadow(1rem 0rem 0rem $tertiary);
+  padding: 0 1rem;
+}

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- {{- $style := resources.Get "sass/main.scss" | toCSS | postCSS (dict "use" "autoprefixer") | minify -}} -->
     {{- $style := resources.Get "sass/main.scss" | toCSS | minify -}}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
     <title>
@@ -13,9 +13,11 @@
   </head>
   <body>
     {{ partial "navbar" . }}
-    <main>
+    <main class="container">
+    <div class="col">
       {{ block "main" . }}
       {{ end }}
+    </div>
     </main>
     {{ block "footer" . }}
     {{ end }}

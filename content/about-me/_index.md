@@ -3,17 +3,44 @@ title: "About Me"
 date: 2020-09-12T00:05:25-07:00
 ---
 
-My name is Jack Pearson. I'm studying Computing (Computer Science under a different name) at UCSB. Right now, I'm looking for an internship for Summer 2021 in software development. My main areas of expertise are web development, C++ applications, and Python scripts. I've been writing programs in some form since 7th grade, but I didn't start working on large projects until my senior year of high school, when I discovered that I really enjoyed programming and decided it would be my career.
+{{< figure src="/img/looking-at-guitar.jpg" >}}
 
-My work ethic can be described as "completionist". So, in video games, this means that I have to get every achievement and finish every quest before I'm happy. Similarly, when I'm doing software development, I strive to thouroughly understand every part of what I'm building, design it according to whatever common practices I can find, then document it.
+My name is Jack Pearson. I'm a sophomore at UCSB studying Computing (Computer
+Science under a different name), and right now I'm looking for a software
+development internship in Summer 2021. The main areas I have experience in are
+web development, C++ applications, and Python (my language of choice for
+anything algorithm-ey). I'm the guy in the middle left of the above photo with
+the "Jack Pearson" nametag, trying to convince a parent that my project is
+interesting.
 
-I also enjoy teaching. Being a "completionist", I like to test and cement my knowledge by teaching it to others, and teaching tends comes pretty naturally to me. Plus, I feel like I'm doing a good thing. I've given a lecture to my intro to CS class, volunteered as a physics tutor, help English learners on HiNative where I'm a [top rated answerer](https://hinative.com/en-US/profiles/5766278), and I visit subreddits for learners of topics that I know well (learnmath, learnjapanese, techsupport).
+Here's a couple things you may want to know about me before you work with me:
 
-In my free time, I like to continue learning. I've been studying Japanese for a couple years now, and, interested by some of the rabbit holes I went down when learning Japanese, also recently started studying linguistics. I sing (poorly) and play piano (a little less poorly). Through some pretty awesome coincidences, I've had the opportunity to sing in a choir for the Santa Barbara Orchestra a couple of times.
+- I tend to be very thorough. I'm not really happy with a program until I've
+  understood every part of it, ensured it's reasonably consistent with common
+  practices, and written some solid documentation.
 
+- I enjoy tinkering with my tools. I have no idea how many hours I've spent
+  fine tuning vim and my other rc files.
 
-I enjoy teaching
-High school was a physics tutor
-I'm a top rated answer on HiNative (here's my profile)
-Frequent reddits for learners of topics I know well (learnmath, learnjapanese, techsupport)
-Gave lecture in my intro CS class.
+I also enjoy teaching, partially because I like to test and cement my
+knowledge, and partially because it just makes me feel good. I've given a
+lecture on C++ to my intro to CS class, volunteered as a physics tutor, I help
+English learners on HiNative where I'm a [top rated answerer], and I visit
+subreddits for learners of topics that I know well (learnmath, learnjapanese,
+techsupport).
+
+In my free time, I like to continue learning. I've been studying Japanese for a
+couple years now, and, interested by some of the rabbit holes I went down when
+learning Japanese, also recently started studying linguistics. I sing (poorly)
+and play piano (a little less poorly). Through two separate series of
+~~fortunate~~ unfortunate events, I've had the opportunity to sing in a choir
+with the Santa Barbara Orchestra a couple of times.
+
+I love discussing things I know about (and don't know about), so if you want to
+talk to me about anything, business or otherwise, feel free to contact me via
+email at:\
+jackrpearson@pm.me
+
+&#8203;
+
+[top rated answerer]: <https://hinative.com/en-US/profiles/5766278>

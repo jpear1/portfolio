@@ -21,3 +21,7 @@ $navbar-dark-active-color: $primary;
     url("/fonts/avenir-book.woff") format("woff"),
     url("/fonts/avenir-book.woff2") format("woff2");
 }
+
+figure > img {
+  max-width: 100%;
+}

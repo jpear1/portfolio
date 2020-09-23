@@ -11,9 +11,3 @@ I also enjoy teaching. Being a "completionist", I like to test and cement my kno
 
 In my free time, I like to continue learning. I've been studying Japanese for a couple years now, and, interested by some of the rabbit holes I went down when learning Japanese, also recently started studying linguistics. I sing (poorly) and play piano (a little less poorly). Through some pretty awesome coincidences, I've had the opportunity to sing in a choir for the Santa Barbara Orchestra a couple of times.
 
-
-I enjoy teaching
-High school was a physics tutor
-I'm a top rated answer on HiNative (here's my profile)
-Frequent reddits for learners of topics I know well (learnmath, learnjapanese, techsupport)
-Gave lecture in my intro CS class.

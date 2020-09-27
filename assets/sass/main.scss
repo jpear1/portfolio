@@ -1,12 +1,12 @@
 $font-size-base: 1.2rem;
 $font-family-base: "Avenir Book";
 
-$primary: #C3073F;
+$primary: #c3073f;
 $secondary: #950740;
-$tertiary: #6F2232;
-$quaternary: #4E4E50;
+$tertiary: #6f2232;
+$quaternary: #4e4e50;
 
-$body-bg: #1A1A1D;
+$body-bg: #1a1a1d;
 $body-color: white;
 
 $navbar-dark-active-color: $primary;
@@ -17,6 +17,7 @@ $navbar-dark-active-color: $primary;
 
 @font-face {
   font-family: "Avenir Book";
-  src: url("/fonts/avenir-book.woff") format("woff"),
-       url("/fonts/avenir-book.woff2") format("woff2");
+  src:
+    url("/fonts/avenir-book.woff") format("woff"),
+    url("/fonts/avenir-book.woff2") format("woff2");
 }

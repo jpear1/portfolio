@@ -25,3 +25,8 @@ $navbar-dark-active-color: $primary;
 figure > img {
   max-width: 100%;
 }
+
+figure {
+  padding: 1rem 0;
+  filter: drop-shadow(1rem 0 0 $tertiary);
+}

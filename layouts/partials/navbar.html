@@ -1,10 +1,12 @@
 <!-- <nav class="main-nav"> -->
 <nav class="navbar navbar-dark">
     <ul class="navbar-nav navbar-expand-md mr-auto">
-        {{ $currentPage := . }}
+        {{ $current := . }}
         {{ range .Site.Menus.main }}
         <li class="navbar-item ml-1 mr-3">
-            <a href="{{ .URL }}" class="nav-link px-3{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
+            {{ $active := (in $current.RelPermalink .URL) }}
+            {{ $active := and $active (or (ne .Name "home") (eq $current.RelPermalink "/")) }}
+            <a href="{{ .URL }}" class="nav-link px-3{{ if $active }} active{{ end }}">
                 {{ .Pre }}
                 <span>{{ upper .Name }}</span>
             </a>

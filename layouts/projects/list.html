@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{ .Content }}
+  <section class="project-card-list"> 
+  {{ range .Pages }}
+    {{ .Render "card" }}
+  {{ end }}
+{{ end }}

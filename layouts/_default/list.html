@@ -1,1 +1,6 @@
-i am a list
+{{ define "main" }}
+  {{ .Content }}
+  {{ range .Pages }}
+    {{ .Permalink }}
+  {{ end }}
+{{ end }}

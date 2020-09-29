@@ -22,11 +22,6 @@ $navbar-dark-active-color: $primary;
     url("/fonts/avenir-book.woff2") format("woff2");
 }
 
-figure > img {
-  max-width: 100%;
-}
-
-figure {
-  padding: 1rem 0;
+.shadow-image {
   filter: drop-shadow(1rem 0 0 $tertiary);
 }

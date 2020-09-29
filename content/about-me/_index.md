@@ -3,7 +3,7 @@ title: "About Me"
 date: 2020-09-12T00:05:25-07:00
 ---
 
-{{< figure src="/img/looking-at-guitar.jpg" >}}
+{{< header_img src="/img/looking-at-guitar.jpg">}}
 
 My name is Jack Pearson. I'm a sophomore at UCSB studying Computing (Computer
 Science under a different name), and right now I'm looking for a software

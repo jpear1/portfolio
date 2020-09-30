@@ -41,6 +41,4 @@ talk to me about anything, business or otherwise, feel free to contact me via
 email at:\
 jackrpearson@pm.me
 
-&#8203;
-
 [top rated answerer]: <https://hinative.com/en-US/profiles/5766278>

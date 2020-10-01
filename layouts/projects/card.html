@@ -1,6 +1,6 @@
-<a class="card" href="{{ .Permalink }}">
+<a class="card" href="{{ .RelPermalink }}">
     <div class="card-image-viewport">
-      <img src="{{ (.Resources.GetMatch "card_image").Permalink }}">
+      <img src="{{ (.Resources.GetMatch "card_image").RelPermalink }}">
     </div>
     <span class="card-title">{{ title .Title }}</span>
 </a>

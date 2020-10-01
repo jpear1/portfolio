@@ -14,5 +14,5 @@ A few of my other hobbies include music, Japanese, linguistics, camping, and
 teaching.
 
 You can read about some of my programming projects I've written about under the
-"Projects" tab (currently under construction), and you can read more about how
-I spend my time under "About Me."
+"Projects" tab, and you can read more about how I spend my time under "About
+Me."

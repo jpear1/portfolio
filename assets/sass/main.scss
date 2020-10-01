@@ -27,6 +27,10 @@ $navbar-dark-active-color: $primary;
   filter: drop-shadow(1rem 0 0 $tertiary);
 }
 
+audio {
+  background-color: $primary;
+}
+
 .caption {
   padding-top: .5rem;
   font-size: 1rem;

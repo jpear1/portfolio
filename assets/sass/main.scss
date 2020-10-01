@@ -26,3 +26,8 @@ $navbar-dark-active-color: $primary;
 .shadow-image {
   filter: drop-shadow(1rem 0 0 $tertiary);
 }
+
+.caption {
+  padding-top: .5rem;
+  font-size: 1rem;
+}

@@ -27,7 +27,7 @@
         <li class="navbar-item ml-1 mr-3">
             
             
-            <a href="/projects/" class="nav-link px-3">
+            <a href="/projects/" class="nav-link px-3 active">
                 
                 <span>PROJECTS</span>
             </a>
@@ -68,8 +68,51 @@
     <main class="container">
     <div class="col">
       
-  
-  
+  <h1>Self-Playing Guitar</h1>
+  <p>The Self-Playing Guitar, or sometimes the Air Guitar, is a project I
+programmed and partially built with two other students at the Dos Pueblos
+Engineering Academy in my senior year of high school.</p>
+<figure class="float-right w-25 ml-4">
+  <img class="shadow-image w-100"
+    src="/projects/guitar/images/hammer-on.jpg">
+  <p class="text-right caption">A guitarist performing a hammer-on</p>
+</figure>
+
+<p>The project is actually a lot more than just a guitar; it has a carriage of
+pneumatic pistons that act as the &ldquo;fingers&rdquo; that play the guitar, which use a
+technique called a hammer-on (when a player slams their finger down on the
+string hard enough that they don&rsquo;t have to strum). The pistons are controlled
+by an Arduino, which in turn controlled by a Raspberry Pi, which also
+controlled the motor and displayed the GUI.</p>
+<p>The guitar has a library of music in MIDI format that it knows how to play. It
+picks out the guitar part of the song, uses a pathfinding algorithm to figure
+out how to play it efficiently, and plays the other parts using a synthesizer.
+This pathfinding algorithm was written by one of my very talented teammates,
+and I wrote a routine that used some music theory to simplify parts of a song
+when the guitar was unable to find a way to play it.</p>
+<p>The user can pick which song they want to hear, then once it&rsquo;s playing, control
+the guitar in the same way they would control a music player like Spotify. They
+can pause, play, stop, and fast forward/rewind. An animation of the piston and
+motor movements is also displayed, as it&rsquo;s often difficult to see exactly what
+the pistons are doing.  All of this is written in Python, using Kivy for
+graphics.</p>
+<p>My main role was writing the user interface, but because my team inherited the
+unfinished guitar from older students and none of us were on the &ldquo;mechanical
+team&rdquo;, I often ended up doing some mechanical engineering too.  Using
+SolidWorks, I designed things like: part of a re-imagined piston carriage,
+plates to protect the electrical components from people, and plates to protect
+people from the (20A, very powerful) motorized carriage. I also often
+machined/laser cut such parts in our machine shop.</p>
+<p>A point of pride for my team was our organized electrical setup. Our final
+product was something like rev. 4 of the setup. We all became intimately
+familiar with the smell of solder.</p>
+<p>Here&rsquo;s a mini video tour of the guitar playing a couple songs, sans-synth:</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/b7EqSpEVfhg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
 
     </div>
     </main>

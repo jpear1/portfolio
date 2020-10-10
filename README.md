@@ -1,1 +1,1 @@
-This repo contains the Hugo project files and the build (`public/`) for my personal website.
+This repo contains the Hugo project files and the build (`public/`) for my personal website. Requires Hugo 0.68.3

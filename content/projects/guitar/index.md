@@ -18,8 +18,8 @@ The project is actually a lot more than just a guitar; it has a carriage of
 pneumatic pistons that act as the "fingers" that play the guitar, which use a
 technique called a hammer-on (when a player slams their finger down on the
 string hard enough that they don't have to strum). The pistons are controlled
-by an Arduino, which in turn controlled by a Raspberry Pi, which also
-controlled the motor and displayed the GUI.
+by an Arduino, which is in turn controlled by a Raspberry Pi, which also
+controls the motor and displays the GUI.
 
 The guitar has a library of music in MIDI format that it knows how to play. It
 picks out the guitar part of the song, uses a pathfinding algorithm to figure

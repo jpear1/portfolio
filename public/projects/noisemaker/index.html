@@ -69,15 +69,24 @@
     <div class="col">
       
   <h1>Noisemaker</h1>
-  <p>Noisemaker is a basic music synthesizer written in C++. It&rsquo;s capable of
-additive and frequency modulation synthesis techniques. I wrote this while
-reading <em>Computer Music: Synthesis, Composition, and Performance</em> by Charles
-Dodge, which was super interesting. If you&rsquo;re at all interested in digital
-synthesis, I&rsquo;d recommend taking a look at it. The basics of how a synthesizer
-works are explained, but if you&rsquo;re interested in exactly how these techniqutes
-are implemented in a general purpose programming language, you may find it
-informative to take a look at Noisemaker. It&rsquo;s open source, and you can find it
-<a href="https://github.com/jpear1/noisemaker">here</a>.</p>
+  <figure class="float-right w-25 ml-4">
+  <img class="shadow-image w-100"
+    src="/projects/noisemaker/images/frequency-modulation.jpg">
+  <p class="text-right caption">Some waveforms that can be formed with frequency modulation</p>
+</figure>
+
+<p>Noisemaker is a basic music synthesizing library written in C++. Basically, it
+provides several basic modules that can control each other&rsquo;s input, add and
+multiply outputs, and perform other basic functions. The user connects several of these
+modules together, then chooses an output module to be written to a wav file. The
+names of the two synthesis techniques this enables are &ldquo;additive&rdquo; and
+&ldquo;frequency modulation&rdquo;.</p>
+<p>I wrote this while reading <em>Computer Music: Synthesis, Composition, and
+Performance</em> by Charles Dodge, which was super interesting. The basics of how a
+synthesizer works are explained, but if you&rsquo;re interested in exactly how these
+techniques are implemented in a general purpose programming language, you may
+find it informative to take a look at Noisemaker. It&rsquo;s open source, and you can
+find it <a href="https://github.com/jpear1/noisemaker">here</a>.</p>
 <p>Here&rsquo;s a short wobbly melody produced by Noisemaker:</p>
 <audio controls src="/projects/noisemaker/audio/megalovania.mp3"></audio>
 
